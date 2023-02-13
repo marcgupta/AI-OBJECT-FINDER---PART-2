@@ -1,0 +1,171 @@
+body {
+
+    background-color: #fffcec;
+    overflow: hidden;
+
+}
+
+#weird-shape {
+
+    width: 450px;
+    height: 500px;
+    position: fixed;
+    left: 1050px;
+    bottom: 350px;
+    z-index: -1;
+
+}
+
+#weird-shape-2 {
+
+    width: 450px;
+    height: 500px;
+    position: fixed;
+    right: 1075px;
+    top: 250px;
+    z-index: -1;
+
+}
+
+.effect {
+
+    animation: transitionIn 1.5s;
+
+}
+
+@keyframes transitionIn {
+
+    from {
+
+        opacity: 0;
+        transform: rotateX(-10deg);
+
+    }
+
+    to {
+
+        opacity: 1;
+        transform: rotateX(0deg);
+
+    }
+}
+
+#rectangle {
+
+    width: 800px;
+    height: 520px;
+    border: 2px solid #000000;
+    background-color: #FFFFFF;
+    z-index: 50px;
+    position: fixed;
+    top: 50px;
+    left: 300px;
+
+}
+
+#rectangle-2 {
+
+    width: 800px;
+    height: 40px;
+    border: 2px solid #000000;
+    background-color: #DAFAB0;
+    z-index: 50px;
+    position: fixed;
+    top: 50px;
+    left: 300px;
+
+}
+
+#circle {
+
+    height: 15px;
+    width: 15px;
+    background-color: #D2D28D;
+    border-radius: 50%;
+    border: 2px solid #000000;
+    position: fixed;
+    left: 320px;
+    top: 63px;
+
+}
+
+#circle-2 {
+
+    height: 15px;
+    width: 15px;
+    background-color: #FDB3D9;
+    border-radius: 50%;
+    border: 2px solid #000000;
+    position: fixed;
+    left: 350px;
+    top: 63px;
+
+}
+
+#circle-3 {
+
+    height: 15px;
+    width: 15px;
+    background-color: #7776A9;
+    border-radius: 50%;
+    border: 2px solid #000000;
+    position: fixed;
+    left: 380px;
+    top: 63px;
+
+}
+
+#title {
+
+    font-family: 'Bowlby One SC', cursive;
+    color: #3b3434;
+    font-size: 20px;
+    position: fixed;
+    top: 57px;
+    left: 875px;
+
+}
+
+#name {
+
+    font-family: 'Bowlby One SC', cursive;
+    color: #3b3434;
+    font-size: 30px;
+    position: fixed;
+    top: 110px;
+    left: 575px;
+
+}
+
+#button {
+
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.76);
+    background-color: #FFB4DA;
+    border-radius: 15px;
+    border: 2px solid #000000; 
+    font-family: monospace;
+    width: 100px;
+    height: 50px;
+    position: fixed;
+    top: 215px;
+    font-size: 20px;
+    left: 650px;
+
+}
+
+#status {
+
+    font-family: 'Bowlby One SC', cursive;
+    color: #3b3434;
+    font-size: 20px;
+    position: fixed;
+    left: 555px;
+    top: 275px;
+
+}
+
+canvas{
+
+border-radius: 20px;
+
+}
